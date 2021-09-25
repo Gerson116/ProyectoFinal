@@ -22,16 +22,19 @@ namespace ProyectoFinal.Controllers
         {
             return View();
         }
-
-        public IActionResult Privacy()
+        public IActionResult Dashboard()
         {
-            return View();
+            throw new NotImplementedException();
         }
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
+        public IActionResult Transferencia() 
         {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            throw new NotImplementedException();
+        }
+
+        public IActionResult HistoricoDeTransferencia() 
+        {
+            throw new NotImplementedException();
         }
     }
 }
